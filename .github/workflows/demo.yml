@@ -6,3 +6,10 @@ jobs:
     steps:
       - name: Prin greeting
         run: echo "Hi, bro!"
+      - name: Print a few lines
+        run: | 
+          echo first line
+          echo second line
+          echo third line
+
+
